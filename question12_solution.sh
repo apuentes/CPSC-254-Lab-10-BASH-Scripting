@@ -3,6 +3,11 @@
 userInput="-1";
 
 while true; do
+echo -e "CSUF Room Reservation Info
+Press 0 to exit,
+1 to display the application descritpion,
+2 to display the application files content,
+or 3 to display the programmer credits"
 echo -e "0-Exit\n1-Intro\n2-Display Files\n3-Credits";
 read userInput;
 	if (("$userInput" == "0" )); then
